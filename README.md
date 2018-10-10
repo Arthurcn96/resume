@@ -2,7 +2,7 @@
 Personal resume written in latex, in order to show some of my work, education and experience.
 
 ## Editing
-If you want to edit the file, change the ```Guilherme.tex``` file with your information. As you can see on the comments, there are
+If you want to edit the file, change the ```Arthur.tex``` file with your information. As you can see on the comments, there are
 some rules you can change to make your resume as you wish. The rules are:
 
 - Font size
