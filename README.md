@@ -26,4 +26,3 @@ To compile this resume on Debian Based you can download ```texlive-full```, with
 sudo apt-get install texlive-full
 ```
 
-Feel free to fork and contact me.

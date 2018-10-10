@@ -1,0 +1,91 @@
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+
+\hyphenation{Espirito Santo}
+\hyphenation{UFES}
+
+
+\documentclass[10pt, a4paper, roman]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+
+\usepackage[portuguese]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+%\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage[scale=0.90]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+\firstname{Arthur} 
+\familyname{Novais}
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+
+\mobile{+55 27 99915-6801}
+
+\email{Arthurcn96@gmail.com}
+
+\begin{document}
+\makecvtitle % Prints the CV title
+
+\section{Experiência}
+
+\subsection{Profissional}
+
+\cventry{Presente}{Desenvolvimento web}{Adapti}{Espirito Santo}{Brasil}
+{
+    \begin{itemize}
+        \item Desenvolvimento de Sites estático
+		\item Desenvolvimento de Sites dinâmicos
+		\item Desenvolvimento de Sistemas/Aplicativos
+    \end{itemize}
+    Competências envolvidas: HTML, PHP, CSS.
+}
+
+
+
+\subsection{Acadêmica}
+ 
+\cventry{Presente}{Laravel 5 Express}{Adapti}{Espirito Santo}{}
+{
+}
+
+\subsection{Voluntária}
+
+ 
+
+\section{Educação}
+
+\cventry{Presente}{Ciência da Computação}{Universidade Federal do Espirito Santo(UFES)}{Espirito Santo}{Brasil}{}
+
+\section{Línguas}
+
+\cvitemwithcomment{Nativo}{Português}{}
+\cvitemwithcomment{Fluente}{Inglês}{}
+\cvitemwithcomment{Básico}{Espanhol}{}
+\section{Conhecimento Técnico}
+
+\cvitem{Intermediário}{C, C++, \LaTeX, HTML, CSS, PH Java Script.}
+\cvitem{Bom}{Python, C/C++, Git, Java.}
+
+\end{document}
