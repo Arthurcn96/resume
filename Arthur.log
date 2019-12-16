@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.22)  14 SEP 2019 12:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.22)  16 DEC 2019 12:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -817,8 +817,9 @@ LaTeX Info: Redefining \nameref on input line 48.
 \@outlinefile=\write3
 \openout3 = `Arthur.out'.
 
+\pagenumberwidth=\skip70
 \makecvtitlepicturebox=\box31
-\makecvtitlepicturewidth=\skip70
+\makecvtitlepicturewidth=\skip71
 
 Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
@@ -860,59 +861,68 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 69.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 93.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 100.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 74.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 114.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 119.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 121.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 129.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 134.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/sl' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 119.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 134.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 119.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 119.
+(babel)             in language  on input line 134.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
  (./Arthur.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
-Package rerunfilecheck Info: File `Arthur.out' has not changed.
-(rerunfilecheck)             Checksum: 3F07691EF7E995E23D5107C513810A63;740.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
+
+
+Package rerunfilecheck Warning: File `Arthur.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Arthur.out':
+(rerunfilecheck)             Before: 3F07691EF7E995E23D5107C513810A63;740
+(rerunfilecheck)             After:  3259A35A010EA96A521103F1F9F7CFE6;651.
  ) 
 Here is how much of TeX's memory you used:
- 12748 strings out of 494862
- 183533 string characters out of 6178946
- 310541 words of memory out of 5000000
- 15862 multiletter control sequences out of 15000+600000
- 55623 words of font info for 53 fonts, out of 8000000 for 9000
+ 12762 strings out of 494862
+ 183711 string characters out of 6178946
+ 312541 words of memory out of 5000000
+ 15866 multiletter control sequences out of 15000+600000
+ 63322 words of font info for 59 fonts, out of 8000000 for 9000
  41 hyphenation exceptions out of 8191
  43i,12n,67p,772b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/s
-hare/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro17.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on Arthur.pdf (1 page, 245090 bytes).
+pdfTeX warning (dest): name{section*.7} has been referenced but does not exis
+t, replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvip
+s/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmro17.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
+Output written on Arthur.pdf (1 page, 280286 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+ 101 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  9 named destinations out of 1000 (max. 500000)
- 16953 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 19513 words of extra memory for PDF output out of 20736 (max. 10000000)
 
