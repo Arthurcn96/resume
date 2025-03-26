@@ -12,28 +12,35 @@
 % CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
 %
 % Important note:
-% This template requires the moderncv.cls and .sty files to be in the same
-% directory as this .tex file. These files provide the resume style and themes
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
 % used for structuring the document.
-
-\hyphenation{Espirito Santo}
-\hyphenation{UFES}
 
 
 \documentclass[10pt, a4paper, roman]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
-
 \usepackage[portuguese]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+
 \moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
 
 \moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
 %\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
 \usepackage[scale=0.90]{geometry} % Reduce document margins
-\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
 \setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue
+}
 
 \firstname{Arthur}
 \familyname{Novais}
@@ -42,63 +49,98 @@
 \title{Curriculum Vitae}
 
 \mobile{+55 27 99915-6801}
-
 \email{Arthurcn96@gmail.com}
 
 \begin{document}
 \makecvtitle % Prints the CV title
 
-\section{Contato}
+{\LARGE \hspace{2.15cm}\textbf{Arthur Costa de Novais} \\  \\}
+\vspace{.3cm}
+{\Large\hspace{2cm} \textbf{Computer Vision | Machine Learning | Data Science} \\  \\}
+\vspace{0.2cm}
+\hspace{2cm} 
+\textbf{\href{mailto:arthurcn96@gmail.com}{Arthurcn96@gmail.com}} | 
+\textbf{\href{https://www.linkedin.com/in/arthur-novais-201420}{LinkedIn} }
 
 \vspace{0.2cm}
-\hspace{2cm} Email:  \textbf{Arthurcn96@gmail.com} \\  \\
-\vspace{0.2cm}
-\hspace{2cm}Telefone:  \textbf{+55 27 99915-6801} \\
 
-
+\section{Resumo}
 \vspace{0.2cm}
 
-
+\cvitem{}{Profissional com graduação em \textbf{Ciência da Computação}. Experiência sólida no desenvolvimento de soluções de \textbf{visão computacional} e \textbf{aprendizado profundo}, utilizando bibliotecas como \textbf{TensorFlow}, \textbf{PyTorch} e \textbf{OpenCV}. Atuação destacada em projetos de classificação e detecção de objetos em tempo real, com integração de soluções embarcadas e aplicações industriais. Familiaridade com ambientes Linux, Docker e Git para gestão de projetos e implantação de modelos.}
+\vspace{0.5cm}
 
 \section{Experiência}
 
 \subsection{Profissional}
 
-
 \vspace{0.2cm}
-\cventry{2018 - 2020}{Desenvolvimento web}{Adapti}{Espirito Santo}{Brasil}
+\cventry{2022 - 2024}{Computer Vision Engineer}{Vixteam Consultoria e Sistemas}{Espirito Santo}{Brasil}
 {
+    Atuando como engenheiro de visão computacional em projetos industriais de alta complexidade, combinando aprendizado profundo, sistemas embarcados e infraestrutura moderna.\\
     \begin{itemize}
-      \item Desenvolvimento de Sites estático \& dinâmicos
-    	\item Desenvolvimento de Sistemas \& Aplicativos
-      \item Trabalhando nos setores de Gerência de Projetos
-    	\item Competências envolvidas: HTML, PHP, CSS, JavaScript, Ajax, React.
-      \item Habilidades aprendidas na empresa:
-      \begin{itemize}
-        \item \textbf{Transparência, Sinergia, Proatividade, Resiliência e a Comunicação necessária pra trabalhar em equipe.}
-      \end{itemize}
+      \item Desenvolvimento soluções de visão computacional para a ArcelorMittal utilizando Python, TensorFlow e OpenCV;
+      \item Implementação de arquiteturas de redes neurais convolucionais (CNNs) para detecção de defeitos na produção de aço;
+      \item Integração de modelos treinados com sistemas embarcados para análise em tempo real.
     \end{itemize}
-    Trabalhando em uma empresa onde todos trabalham por um mesmo objetivo te dá a chance de ser líder e de testar coisas novas a todo momento. Se precisar definir todo meu tempo MEJ a palavra seria \textbf{oportunidade}
 }
 
-\vspace{0.5cm}
+\vspace{0.4cm}
+\cventry{2021 - 2022}{Software Engineer}{Vixteam Consultoria e Sistemas}{Espirito Santo}{Brasil}
+{
+    Contribuiu para o desenvolvimento de ferramentas robustas em ambientes corporativos, integrando linguagens de programação versáteis e sistemas legado.\\
+    \begin{itemize}
+      \item Desenvolveu soluções de software utilizando C++, Java e SQL;
+      \item Criou ferramentas customizadas e deu suporte a processos existentes, utilizando Git para controle de versão.
+    \end{itemize}
+}
 
+
+
+\vspace{0.4cm}
+\cventry{2021}{Estágio}{Vixteam Consultoria e Sistemas}{Espirito Santo}{Brasil}
+{
+    Contribuiu para o desenvolvimento de ferramentas robustas em ambientes corporativos, integrando linguagens de programação versáteis e sistemas legado.\\
+    \begin{itemize}
+      \item Desenvolveu soluções de software utilizando C++, Java e SQL;
+      \item Criou ferramentas customizadas e deu suporte a processos existentes, utilizando Git para controle de versão.
+    \end{itemize}
+}
+
+\vspace{0.6cm}
 \subsection{Acadêmica}
 
+\vspace{0.2cm}
+\cventry{2022}{Graduação}{UFES}{Espirito Santo}{Brasil}
+{
+  Graduado na Universidade Federal do Espírito Santo com um foco em Visão Computacional com  projetos e TCC em focados em classificação e detecção.
+}
 
 \vspace{0.2cm}
-\cventry{2019}{ENCOMP}{UFES}{Espirito Santo}{Brasil}
+
+\vspace{0.4cm}
+
+\cventry{2019}{Project Manager}{Adapti - Soluções Web}{Espirito Santo}{Brasil}
 {
-	\begin{itemize}
-		\item Encontro de Computação
-		\item \textbf{Setor}: Secretaria
-    \item Responsabilidades:
+    Coordenou equipes multidisciplinares para entrega eficiente de projetos web, aplicando boas práticas de gestão e desenvolvimento ágil\\
     \begin{itemize}
-      \item Criação dos documentos(Ata) e impressões.
+      \item Planejou e gerenciou projetos de sistemas web utilizando a metodologia ágil SCRUM;
+      \item Criou ferramentas customizadas e deu suporte a processos existentes, utilizando Git para controle de versão.
     \end{itemize}
-	\end{itemize}
-  Trabalhando na área da secretaria tive a oportunidade de me tirar da área de conforto e então trabalhar em uma área que não tinha familiaridades. Foi um ótimo \textbf{desafio} seguido de muito aprendizado.
 }
+
+\vspace{0.4cm}
+\cventry{2018 - 2019}{Software Engineer}{Adapti - Soluções Web}{Espirito Santo}{Brasil}
+{
+    Criou soluções web modernas, aplicando conhecimento em tecnologias front-end e back-end para atender às demandas de clientes.\\
+    \begin{itemize}
+      \item Desenvolveu aplicações web com HTML5, CSS3, JavaScript e frameworks como Bootstrap e Laravel;
+      \item Implementou sistemas seguindo o padrão de projeto MVC, utilizando Git para controle de versão.
+    \end{itemize}
+}
+
+
+
 
 
 \vspace{0.2cm}
@@ -113,31 +155,20 @@
 
 
 \vspace{0.2cm}
-\cventry{Presente}{Atividades de Extensão - RUGBY}{UFES}{Espirito Santo}{Brasil}
-{
-O Rugby dentro da faculdade me ofereceu mais do que uma oportunidade de ter um treinamento físico ou jogar um jogo, ele me desenvolveu valores em fundamentais que podem ser aplicados tanto dentro quanto fora do jogo. Sendo eles:
-\begin{itemize}
-  \item \textbf{Integridade, Paixão, Solidariedade, Disciplina, Respeito}
-\end{itemize}
-}
 
 
-\vspace{0.5cm}
 \subsection{Voluntária}
 
 \vspace{0.2cm}
-\cventry{2019}{Voluntários Independentes Pelo Amigo(VIPA)}{ONG}{Espirito Santo}{Brasil}{Trabalho volutário em uma Organização que trata de cachorros abandonados, ajudando no tratamento, organização e limpeza do recinto.}
+\cventry{2019 - 2020}{Voluntários Independentes Pelo Amigo(VIPA)}{ONG}{Espirito Santo}{Brasil}{Trabalho volutário em uma Organização que trata de cachorros abandonados, ajudando no tratamento, organização e limpeza do recinto.}
 
+\vspace{0.5cm}
+\section{Cursos}
 
-\vspace{2.5cm}
-
-\makecvtitle % Prints the CV title
-\section{Eventos}
-
-\vspace{0.2cm}
-\cventry{2016 - 2019}{ENCOMP}{São Mateus}{Espirito Santo}{Brasil}{Encontro Norte Capixaba de Computação.}
-\cventry{2018 - 2019}{ENCEJ 360}{Vila Velha}{Espirito Santo}{Brasil}{Encontro Capixaba de Empresas Juniores.}
-\cventry{2019}{ENEJ}{Gramado}{Rio Grande do Sul}{Brasil}{26º Encontro Nacional de Empresas Juniores.}
+\cvitem{}{\href{https://arthurcn96.github.io/certificates.html}{Fundamentals of Lakehouse Architecture}}
+\cvitem{}{\href{https://arthurcn96.github.io/certificates.html}{Fundamentals of Delta Lake}}
+\cvitem{}{\href{https://arthurcn96.github.io/certificates.html}{Fundamentals of the Databricks Lakehouse Platform}}
+\cvitem{}{\href{https://arthurcn96.github.io/certificates.html}{Remote Monitoring and Diagnostics (RM\&D)}}
 
 \vspace{0.5cm}
 \section{Línguas}
@@ -150,7 +181,10 @@ O Rugby dentro da faculdade me ofereceu mais do que uma oportunidade de ter um t
 \vspace{0.5cm}
 \section{Conhecimento Técnico}
 
-\cvitem{Intermediário}{HTML, CSS, PHP, Java Script, Node, ReactNative, MySQL}
-\cvitem{Avançado}{Python, C/C++, Github, \LaTeX, Java.}
+\cvitem{}{\textbf{Machine Learning e Deep Learning}: Experiência prática no desenvolvimento de modelos utilizando TensorFlow, PyTorch e Scikit-learn.}
+\cvitem{}{\textbf{Visão Computacional}: Visão Computacional: Domínio de bibliotecas como OpenCV e Imutils para construção de pipelines de análise de imagens.}
+\cvitem{}{\textbf{Infraestrutura e DevOps}: Conhecimento com Docker, Linux e Git para criação e gerenciamento de ambientes de desenvolvimento.}
+\cvitem{}{\textbf{Linguagens de Programação}: Proficiência em Python, com experiência adicional em C++ e Java.}
+
 
 \end{document}
